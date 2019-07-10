@@ -7,7 +7,7 @@ setuptools.setup(
     name="pycaw",
     version="0.0.1",
     author="Jailibrary",
-    author_email="",
+    author_email="admin@jailibrary.com",
     description="A Cydia/Sileo package and repository Python wrapper.",
     long_description=long_description,
     long_description_content_type="text/markdown",
