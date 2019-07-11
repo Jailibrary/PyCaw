@@ -59,4 +59,12 @@ def get(type, id=None, value=None):
         err('Invalid type argument')
 
 
-# print(get('package', 'me.nepeta.axon', 'latest'))
+def getIdFromName(name):
+    o = requests.get(packages).json()
+    e = json.dumps(o)
+    r = json.loads(e)
+    t = r['packages']
+
+    for pkg in t:
+        if pkg['name'].lower() == name.lower():
+            return pkg['id']
