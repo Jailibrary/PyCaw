@@ -20,7 +20,7 @@ Usage
 
 Using PyCaw is fairly easy syntax-wise.
 
-**get(type, id, value)**
+**pycaw.get(type, id, value)**
 
 There are 6 possible ``type``\ s:
 
