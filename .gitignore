@@ -1,1 +1,10 @@
 .vscode/
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg
+*.eggs
+*.egg-info/
+MANIFEST
