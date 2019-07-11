@@ -12,5 +12,8 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Jailibrary/PyCaw",
+    install_requires=[
+        'requests'
+    ],
     packages=setuptools.find_packages()
 )
