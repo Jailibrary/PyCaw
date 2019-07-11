@@ -1,6 +1,6 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("docs/index.rst", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
@@ -10,7 +10,7 @@ setuptools.setup(
     author_email="admin@jailibrary.com",
     description="A Cydia/Sileo package and repository Python wrapper.",
     long_description=long_description,
-    long_description_content_type="text/markdown",
+    long_description_content_type="text/reStructuredText",
     url="https://github.com/Jailibrary/PyCaw",
     install_requires=[
         'requests'
