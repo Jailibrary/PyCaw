@@ -68,3 +68,6 @@ def getIdFromName(name):
     for pkg in t:
         if pkg['name'].lower() == name.lower():
             return pkg['id']
+
+
+print(get('package', 'me.nepeta.flashyhud', 'latest'))
